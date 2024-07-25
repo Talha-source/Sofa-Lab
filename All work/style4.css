@@ -1,0 +1,263 @@
+@font-face {
+    font-family: font;
+    src: url(./1Ptug8zYS_SKggPNyC0ITw.woff2);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:font;
+}
+html,body{
+    width: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+     } 
+#navbar1 .logo{
+    height: 3vw;
+    width: 7.5vw;
+    position: absolute;
+    left: 70px;
+    top: 59px;
+}
+#navbar1 .back{
+    height: 98vh;
+    object-fit: cover;
+    width: 98.8vw;
+    background-color: black;
+}
+#navbar{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+#navbar2{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    position: absolute;
+    padding: 70px 40px;
+    margin-left: 200px;
+}
+#navbar2 li{
+list-style: none;
+}
+#navbar2 a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+#navbar2 a:hover{
+    color: #E4C68B;
+    transition: all ease 0.3s;
+}
+#center{
+   text-align: center;
+   align-items: center;
+}
+#center h1{
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    position: absolute;
+    top: 45%;
+    left: 0%;
+    font-weight: 250;
+}
+.cen1{
+    text-align: center;
+    margin-left: 320px;
+}
+.cen2{
+    margin-top: 70px;
+    margin-left: 107px;
+}
+#center span{
+    color: #E4C68B;
+    font-weight: 500;
+}
+#mid img{
+    width: 100%;
+}
+#para h1{
+    font-size: 35px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    margin-top: 190px;
+}
+#para span{
+    color: #E4C68B;
+    font-weight: 600;
+}
+#para p{
+    text-align: center;
+    margin-top: 70px;
+    line-height: 30px;
+}
+
+
+#images{
+    margin-top: 100px; 
+    height: 100vh;
+    overflow-x: hidden;
+}
+#image1{
+    display: flex;
+    align-items: center;
+    width: 50vw;
+    height: 39.4vh;
+    top: -0.2vw;
+    background-color: #C3C3C3;
+    position: relative;
+    cursor: pointer;
+    background-image: url(./feature-bg-1.jpg);
+    object-fit: cover;
+}
+#image1 img{
+    width: 50vw;
+    height: 39.4vh;
+    object-fit: cover;
+    z-index: 99;
+}
+#image1 img:hover{
+    transition: all ease 1;
+    opacity: 0;
+}
+
+#image2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 39.6vh;
+    width: 20vw;
+    background-color: #DCDCDC;
+    margin-left: 50vw;
+    margin-top: -261.1px;
+    overflow: hidden;
+    cursor: pointer;
+    background-image: url(./feature-bg-2.jpg) ;
+}
+#image2 img{
+    height: 39.6vh;
+    width: 20vw;
+    object-fit: cover;
+    z-index: 99;
+}
+#image2 img:hover{
+    transition: all ease 1;
+    opacity: 0;
+}
+#image3{
+    margin-top: -19.2vw;
+    margin-left: 70vw;
+    height: 78vh;
+    width: 30vw;
+    background-color: #C3C3C3;
+    position: relative;
+    cursor: pointer;
+    background-image: url(./feature-bg-3.jpg);
+}
+#image3 img{
+    display: flex;
+    width: 30vw;
+    height: 78vh;
+    object-fit: cover;
+    z-index: 99;
+    position: absolute;
+}
+#image3 img:hover{
+    transition: all ease 1;
+    opacity: 0;
+}
+#image4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 38.2vh;
+    width: 20vw;
+    background-color: #DCDCDC;
+    margin-top: -18.4vw;
+    cursor: pointer;
+    background-image: url(./feature-bg-4.jpg) ;
+}
+#image4 img{
+    height: 38.2vh;
+    width: 20vw;
+    object-fit: cover;
+    z-index: 99;
+}
+#image4 img:hover{
+    transition: all ease 1;
+    opacity: 0;
+}
+#image5{
+    height: 38.2vh;
+    width: 50vw;
+    background-color: #EBECEC;
+    margin-left: 20vw;
+    margin-top: -18.4vw;
+    position: absolute;
+    overflow: hidden;
+    cursor: pointer;
+    background-image: url(./feature-bg-5.jpg) ;
+}
+#image5 img{
+    height: 38.2vh;
+    object-fit: cover;
+    width: 50vw;
+    position: absolute;
+    top: 0vw;
+    z-index: 99;
+}
+#image5 img:hover{
+    transition: all ease 1;
+    opacity: 0;
+}
+
+#footer{
+    background-color: #111;
+    height: 60vh;
+    width: 100%;
+    overflow-x: hidden;
+}
+#footer .ggg{
+    position: absolute;
+    opacity: 0.6;
+    width: 90vw;
+    height: 100vh;
+}
+#lastnav{
+    padding: 7vw 22vw;
+    display: flex;
+}
+#lastnav li{
+    list-style: none;
+}
+#lastnav a{
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    font-size: 1vw;
+    text-align: center;
+}
+#bug img{
+    width: 8vw;
+    margin-left: 45.2vw;
+}
+#bug p{
+    width: 110vw;
+    font-size: 0.8vw;
+    margin-left: 14vw;
+    margin-top: 2vw;
+    color: #856d45;
+    display: flex;
+} 
+#lastnav a:hover{
+    color: #E4C68B;
+    transition: 0.3s;
+}
